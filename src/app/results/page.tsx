@@ -32,13 +32,14 @@ export default function ResultsPage() {
       <main>
         <HeroBanner />
         <StatsBand />
-        <NEETToppers />
-        <JEEToppers />
-        <BoardToppers />
+        {/* <NEETToppers /> */}
+        {/* <JEEToppers /> */}
+        <BoardToppers title={"BSEB"} />
+        <BoardToppers title={"CBSE"} />
         <ResultsTable />
         <ResultsGallery />
         <Testimonials />
-        <AchievementsBand />
+        {/* <AchievementsBand /> */}
         <CTABanner />
       </main>
 

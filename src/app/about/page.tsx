@@ -36,7 +36,7 @@ export default function AboutPage() {
         <Process />
         <StatsBand />
         <Team />
-        <Values />
+        {/* <Values /> */}
         <CTABanner />
       </main>
 

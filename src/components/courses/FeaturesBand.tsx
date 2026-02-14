@@ -17,7 +17,7 @@ export default function FeaturesBand() {
     },
     {
       icon: <IconFlask />,
-      title: "Lab & Practical Support",
+      title: "Practical Support",
       desc: "Fully equipped science lab for hands-on learning. Practical concepts are reinforced with experiments, not just theory.",
     },
     {

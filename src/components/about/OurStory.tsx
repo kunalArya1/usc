@@ -5,8 +5,8 @@ import { IconCheck, IconArrowRight } from "@/utils/icons";
 export default function OurStory() {
   const checks = [
     "98% Student Satisfaction Rate",
-    "Over 500 NEET/JEE Selections",
-    "25+ Qualified Expert Faculty",
+    "Over 100 Board Topper",
+    "5+ Qualified Expert Faculty",
     "85% Students Clear in First Attempt",
   ];
 

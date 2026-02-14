@@ -8,12 +8,12 @@ export default function FAQ() {
 
   const faqs = [
     {
-      q: "When do new batches start for NEET and JEE?",
+      q: "When do new batches start?",
       a: "New batches typically start in April–May (post Class 10/12 results) and again in August–September. Limited seats are available. Contact us to check current batch availability.",
     },
     {
-      q: "Can a student join Class 11–12 coaching and NEET/JEE simultaneously?",
-      a: "Yes! Our integrated Class 11–12 + NEET/JEE program is specifically designed so that board preparation and entrance exam preparation happen side by side, saving time and effort.",
+      q: "Can a student join Class 11–12 coaching",
+      a: "Yes! Our integrated Class 11–12 program is specifically designed so that board preparation, saving time and effort.",
     },
     {
       q: "What is the class schedule? How many hours per day?",
@@ -23,14 +23,14 @@ export default function FAQ() {
       q: "Are study materials provided, or do we need to buy separately?",
       a: "All study materials, notes, DPPs, and practice sheets are included in the course fee. Students do not need to purchase any additional books — everything is provided.",
     },
-    {
-      q: "Is there an online option available?",
-      a: "Yes, we offer hybrid classes (live online + recorded lectures) for students who cannot attend in-person. Online students get the same study material, tests, and doubt-clearing sessions.",
-    },
-    {
-      q: "What is the refund policy if I want to leave the course?",
-      a: "We offer a 15-day trial period. If you're unsatisfied for any reason within 15 days, we provide a full refund — no questions asked. After 15 days, a partial refund may be applicable.",
-    },
+    // {
+    //   q: "Is there an online option available?",
+    //   a: "Yes, we offer hybrid classes (live online + recorded lectures) for students who cannot attend in-person. Online students get the same study material, tests, and doubt-clearing sessions.",
+    // },
+    // {
+    //   q: "What is the refund policy if I want to leave the course?",
+    //   a: "We offer a 15-day trial period. If you're unsatisfied for any reason within 15 days, we provide a full refund — no questions asked. After 15 days, a partial refund may be applicable.",
+    // },
   ];
 
   return (

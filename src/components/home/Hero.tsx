@@ -70,7 +70,8 @@ export function Hero() {
               className="font-['Sora'] text-[44px] md:text-[56px] lg:text-[62px] font-extrabold text-[#0D1836] leading-[1.08] mb-5"
               style={{ animation: "fadeInUp 0.7s ease 0.1s both" }}
             >
-              Excel in NEET, <span className="text-[#E5232E]">JEE</span> &<br />
+              Excel in CBSE,<span className="text-[#E5232E]"> & BSEB</span>
+              <br />
               Board Exams
             </h1>
 
@@ -79,8 +80,8 @@ export function Hero() {
               style={{ animation: "fadeInUp 0.7s ease 0.2s both" }}
             >
               Unique Science Classes in Dhaka, Bihar delivers result-driven
-              coaching for Class 10 (CBSE & BSEB), Class 11–12 Science, NEET &
-              JEE. Learn from expert faculty who've shaped hundreds of toppers.
+              coaching for Class 10 (CBSE & BSEB), Class 11–12 Science. Learn
+              from expert faculty who've shaped hundreds of toppers.
             </p>
 
             {/* CTAs */}

@@ -4,8 +4,8 @@ import { FadeUp } from "@/utils/hooks";
 
 export default function ComparisonTable() {
   const features = [
-    "Expert Faculty (IIT/AIIMS)",
-    "Small Batch (≤30 students)",
+    "Expert Faculty",
+    "Small Batch (≤40 students)",
     "Daily Doubt Sessions",
     "Study Material Included",
     "Mock Tests (Weekly)",
@@ -15,10 +15,10 @@ export default function ComparisonTable() {
   ];
 
   const cols = [
+    { label: "Class 9", icon: "📚", color: "text-blue-600" },
     { label: "Class 10", icon: "📚", color: "text-blue-600" },
-    { label: "Class 11–12", icon: "⚗️", color: "text-[#E5232E]" },
-    { label: "NEET Prep", icon: "🔬", color: "text-purple-600" },
-    { label: "JEE Prep", icon: "🧮", color: "text-orange-600" },
+    { label: "Class 11", icon: "⚗️", color: "text-[#E5232E]" },
+    { label: "Class 11", icon: "⚗️", color: "text-[#E5232E]" },
   ];
 
   const matrix = [
@@ -27,9 +27,9 @@ export default function ComparisonTable() {
     [true, true, true, true],
     [true, true, true, true],
     [true, true, true, true],
-    [false, true, true, true],
     [true, true, true, true],
-    [true, false, true, true],
+    [true, true, true, true],
+    [true, true, true, true],
   ];
 
   return (

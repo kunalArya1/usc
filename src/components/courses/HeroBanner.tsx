@@ -25,20 +25,18 @@ export default function HeroBanner() {
             </div>
             {/* Quick course filter pills */}
             <div className="flex flex-wrap gap-2 mb-1">
-              {["All Courses", "Class 10", "Class 11–12", "NEET", "JEE"].map(
-                (tag, i) => (
-                  <button
-                    key={tag}
-                    className={`font-['Sora'] text-[13px] font-semibold px-4 py-2 rounded-full border transition-all duration-200 ${
-                      i === 0
-                        ? "bg-[#E5232E] text-white border-[#E5232E]"
-                        : "bg-white text-[#0D1836] border-[#E2E8F0] hover:border-[#E5232E] hover:text-[#E5232E]"
-                    }`}
-                  >
-                    {tag}
-                  </button>
-                ),
-              )}
+              {["All Courses", "Class 10", "Class 11–12"].map((tag, i) => (
+                <button
+                  key={tag}
+                  className={`font-['Sora'] text-[13px] font-semibold px-4 py-2 rounded-full border transition-all duration-200 ${
+                    i === 0
+                      ? "bg-[#E5232E] text-white border-[#E5232E]"
+                      : "bg-white text-[#0D1836] border-[#E2E8F0] hover:border-[#E5232E] hover:text-[#E5232E]"
+                  }`}
+                >
+                  {tag}
+                </button>
+              ))}
             </div>
           </div>
         </div>

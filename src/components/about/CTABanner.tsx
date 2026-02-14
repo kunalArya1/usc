@@ -42,15 +42,15 @@ export default function CTABanner() {
           </h2>
 
           <p className="text-[15px] text-white/60 leading-[1.75] max-w-[480px] mx-auto mb-10">
-            New batches for NEET, JEE, Class 10 & 11–12 Science are starting
-            soon. Limited seats — enrol today.
+            New batches for Class 10 & 11–12 Science are starting soon. Limited
+            seats — enrol today.
           </p>
 
           <a
             href="/contact"
             className="inline-flex items-center gap-2 bg-[#E5232E] hover:bg-[#C41920] text-white font-['Sora'] font-semibold text-[15px] px-8 py-4 rounded-full transition-all duration-200 hover:-translate-y-1 hover:shadow-xl hover:shadow-red-600/30 no-underline"
           >
-            Get a Free Quote <IconArrowRight />
+            Contact Us <IconArrowRight />
           </a>
         </FadeUp>
       </div>

@@ -48,7 +48,7 @@ const boardToppers: TopperData[] = [
   },
 ];
 
-export default function BoardToppers() {
+export default function BoardToppers({ title }: { title: string }) {
   return (
     <section className="bg-[#EEF4FB] py-20">
       <div className="max-w-[1200px] mx-auto px-6">
@@ -63,7 +63,7 @@ export default function BoardToppers() {
             <h2 className="font-['Sora'] text-[32px] md:text-[40px] font-extrabold text-[#0D1836] leading-[1.15]">
               Board Exam Toppers
               <br />
-              <span className="text-[#E5232E]">CBSE & BSEB</span>
+              <span className="text-[#E5232E]">{title}</span>
             </h2>
           </div>
           <div className="flex items-center gap-3 pb-1">

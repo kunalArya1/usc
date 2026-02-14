@@ -14,13 +14,13 @@ export function About() {
     "Delivering 98% success rate in board exams year after year",
     "Personalized study plans crafted for every student",
     "Technology-enabled smart classrooms & digital resources",
-    "Dedicated NEET/JEE crash course & revision programs",
+    "Dedicated crash course & revision programs",
   ];
   const miniCards = [
-    { icon: <IconGraduate />, val: "25+", label: "Expert Faculties" },
-    { icon: <IconTrophy />, val: "500+", label: "NEET/JEE Selections" },
+    { icon: <IconGraduate />, val: "5+", label: "Expert Faculties" },
+    { icon: <IconTrophy />, val: "100+", label: "Board Topper" },
     { icon: <IconBookOpen />, val: "4", label: "Courses Offered" },
-    { icon: <IconUsers />, val: "2500+", label: "Alumni Network" },
+    { icon: <IconUsers />, val: "100+", label: "Alumni Network" },
   ];
 
   return (

@@ -10,15 +10,15 @@ export default function Team() {
       bio: "IIT Patna alumnus with 12 years of JEE coaching experience. Specialist in mechanics, electrostatics, and calculus.",
       imgLabel:
         "Faculty photo: Mr. Rajesh Kumar, Physics teacher, professional portrait",
-      tag: "JEE Expert",
+      tag: "Math Expert",
     },
     {
       name: "Dr. Sunita Devi",
-      role: "Biology — NEET",
+      role: "Biology",
       bio: "AIIMS-qualified doctor turned educator. Has personally guided 200+ NEET selections with her unique mnemonics-based teaching.",
       imgLabel:
         "Faculty photo: Dr. Sunita Devi, Biology teacher, professional portrait",
-      tag: "NEET Expert",
+      tag: "Biology Expert",
     },
     {
       name: "Mr. Amit Srivastava",

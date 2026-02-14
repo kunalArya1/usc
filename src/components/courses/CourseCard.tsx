@@ -168,7 +168,7 @@ export default function CourseCard({ course, index }: CourseCardProps) {
           </div>
 
           {/* Fee + CTA */}
-          <div className="flex items-center justify-between gap-3 mt-auto">
+          {/* <div className="flex items-center justify-between gap-3 mt-auto">
             <div>
               <div className="font-['Sora'] text-[20px] font-extrabold text-[#0D1836]">
                 {course.fee}
@@ -176,29 +176,29 @@ export default function CourseCard({ course, index }: CourseCardProps) {
               <div className="text-[11px] text-[#8A96AB]">
                 incl. study material
               </div>
-            </div>
-            <a
-              href="/contact"
-              className="inline-flex items-center gap-2 text-[13px] font-semibold font-['Sora'] px-5 py-3 rounded-full transition-all duration-200 hover:-translate-y-0.5 no-underline"
-              style={{
-                background: course.featured ? "#E5232E" : course.accentColor,
-                color: "#fff",
-                boxShadow: `0 4px 14px ${course.accentColor}30`,
-              }}
-              onMouseEnter={(e) =>
-                ((e.currentTarget as HTMLElement).style.boxShadow =
-                  `0 8px 24px ${course.accentColor}45`)
-              }
-              onMouseLeave={(e) =>
-                ((e.currentTarget as HTMLElement).style.boxShadow =
-                  `0 4px 14px ${course.accentColor}30`)
-              }
-            >
-              Enroll Now <IconArrowRight />
-            </a>
-          </div>
+            </div> */}
+          <a
+            href="/contact"
+            className="inline-flex items-center gap-2 text-[13px] font-semibold font-['Sora'] px-5 py-3 rounded-full transition-all duration-200 hover:-translate-y-0.5 no-underline"
+            style={{
+              background: course.featured ? "#E5232E" : course.accentColor,
+              color: "#fff",
+              boxShadow: `0 4px 14px ${course.accentColor}30`,
+            }}
+            onMouseEnter={(e) =>
+              ((e.currentTarget as HTMLElement).style.boxShadow =
+                `0 8px 24px ${course.accentColor}45`)
+            }
+            onMouseLeave={(e) =>
+              ((e.currentTarget as HTMLElement).style.boxShadow =
+                `0 4px 14px ${course.accentColor}30`)
+            }
+          >
+            Call Us <IconArrowRight />
+          </a>
         </div>
       </div>
+      {/* </div> */}
     </FadeUp>
   );
 }

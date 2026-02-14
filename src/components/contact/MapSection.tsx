@@ -151,7 +151,7 @@ export default function MapSection() {
               </div>
 
               {/* How to reach */}
-              <div className="bg-[#F6F9FF] border border-[#E2E8F0] rounded-[18px] p-6">
+              {/* <div className="bg-[#F6F9FF] border border-[#E2E8F0] rounded-[18px] p-6">
                 <div className="font-['Sora'] text-[14px] font-bold text-[#0D1836] mb-4">
                   How to Reach Us
                 </div>
@@ -193,7 +193,7 @@ export default function MapSection() {
                     </div>
                   ))}
                 </div>
-              </div>
+              </div> */}
 
               {/* Quick call CTA */}
               <a
