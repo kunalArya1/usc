@@ -53,9 +53,9 @@ export default function TopperCard({
             {topper.tag}
           </div>
           {/* Year */}
-          <div className="absolute bottom-3 right-3 bg-[#0F1F45]/80 text-white font-['Sora'] text-[10px] font-semibold px-2.5 py-1 rounded-full backdrop-blur-sm">
+          {/* <div className="absolute bottom-3 right-3 bg-[#0F1F45]/80 text-white font-['Sora'] text-[10px] font-semibold px-2.5 py-1 rounded-full backdrop-blur-sm">
             Batch {topper.year}
-          </div>
+          </div> */}
         </div>
 
         {/* Info */}

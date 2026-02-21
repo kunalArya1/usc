@@ -1,7 +1,14 @@
+"use client";
+
+import { usePathname } from "next/navigation";
+
 function Footer() {
+  const pathname = usePathname();
+
   const links = [
     { label: "Home", href: "/" },
     { label: "About", href: "/about" },
+    { label: "Results", href: "/results" },
     // { label: "Courses", href: "/courses" },
     { label: "Contact", href: "/contact" },
   ];
@@ -41,7 +48,7 @@ function Footer() {
                 <a
                   href={l.href}
                   className={`font-['Sora'] text-[14px] no-underline transition-colors ${
-                    l.href === "/about"
+                    pathname === l.href
                       ? "text-[#E5232E] font-semibold"
                       : "text-white/55 hover:text-white"
                   }`}
@@ -85,10 +92,10 @@ function Footer() {
                   </svg>
                 ),
               },
-              {
-                label: "LinkedIn",
-                icon: <IconLinkedIn />,
-              },
+              // {
+              //   label: "LinkedIn",
+              //   icon: <IconLinkedIn />,
+              // },
               {
                 label: "YouTube",
                 icon: (

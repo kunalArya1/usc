@@ -1,8 +1,12 @@
+"use client";
+
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 
 function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     const fn = () => setScrolled(window.scrollY > 20);
@@ -11,7 +15,7 @@ function Navbar() {
   }, []);
 
   const links = [
-    { label: "Home", href: "/", active: true },
+    { label: "Home", href: "/" },
     { label: "About", href: "/about" },
     // { label: "Courses", href: "/courses" },
     { label: "Results", href: "/results" },
@@ -82,7 +86,7 @@ function Navbar() {
                 <a
                   href={l.href}
                   className={`font-['Sora'] text-[14px] font-medium transition-colors duration-200 no-underline ${
-                    l.active
+                    pathname === l.href
                       ? "text-[#E5232E] font-semibold"
                       : "text-[#0D1836] hover:text-[#E5232E]"
                   }`}
@@ -122,7 +126,7 @@ function Navbar() {
                   href={l.href}
                   onClick={() => setMenuOpen(false)}
                   className={`font-['Sora'] text-[16px] font-semibold no-underline transition-colors ${
-                    l.active
+                    pathname === l.href
                       ? "text-[#E5232E]"
                       : "text-[#0D1836] hover:text-[#E5232E]"
                   }`}
