@@ -29,10 +29,10 @@ export default function TopperCard({
       >
         {/* Photo area */}
         <div className="relative h-[200px] overflow-hidden">
-          <ImgPlaceholder
+          {/* <ImgPlaceholder
             label={`${topper.name} — ${topper.tag} topper ${topper.year}, student portrait`}
             className="w-full h-full group-hover:scale-105 transition-transform duration-500"
-          />
+          /> */}
           {/* Rank badge — top left */}
           {featured && (
             <div className="absolute top-3 right-3 bg-[#E5232E] text-white font-['Sora'] text-[10px] font-bold px-3 py-1.5 rounded-full shadow-md">

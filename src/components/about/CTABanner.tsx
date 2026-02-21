@@ -7,11 +7,11 @@ export default function CTABanner() {
     <section className="relative overflow-hidden">
       {/* Dark bg image */}
       <div className="absolute inset-0">
-        <ImgPlaceholder
+        {/* <ImgPlaceholder
           label="CTA background: wide shot of classroom interior with students — blurred/darkened"
           className="w-full h-full"
           dark
-        />
+        /> */}
         <div className="absolute inset-0 bg-[#0A1628]/88" />
       </div>
 

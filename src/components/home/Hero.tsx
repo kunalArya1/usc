@@ -159,10 +159,10 @@ export function Hero() {
           >
             {/* Main image */}
             <div className="rounded-[24px] overflow-hidden shadow-2xl relative aspect-[4/5]">
-              <ImgPlaceholder
+              {/* <ImgPlaceholder
                 label="Hero image: Students studying in classroom at Unique Science Classes"
                 className="w-full h-full min-h-[480px]"
-              />
+              /> */}
             </div>
 
             {/* Floating card 1 — bottom left */}

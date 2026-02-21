@@ -59,18 +59,18 @@ export default function ResultsGallery() {
           <div className="flex flex-col gap-4">
             <FadeUp delay={0}>
               <div className="rounded-[16px] overflow-hidden">
-                <ImgPlaceholder
+                {/* <ImgPlaceholder
                   label={photos[0].label}
                   className="w-full h-[280px]"
-                />
+                /> */}
               </div>
             </FadeUp>
             <FadeUp delay={60}>
               <div className="rounded-[16px] overflow-hidden">
-                <ImgPlaceholder
+                {/* <ImgPlaceholder
                   label={photos[1].label}
                   className="w-full h-[160px]"
-                />
+                /> */}
               </div>
             </FadeUp>
           </div>
@@ -78,26 +78,26 @@ export default function ResultsGallery() {
           <div className="flex flex-col gap-4">
             <FadeUp delay={80}>
               <div className="rounded-[16px] overflow-hidden">
-                <ImgPlaceholder
+                {/* <ImgPlaceholder
                   label={photos[2].label}
                   className="w-full h-[160px]"
-                />
+                /> */}
               </div>
             </FadeUp>
             <FadeUp delay={120}>
               <div className="rounded-[16px] overflow-hidden">
-                <ImgPlaceholder
+                {/* <ImgPlaceholder
                   label={photos[3].label}
                   className="w-full h-[180px]"
-                />
+                /> */}
               </div>
             </FadeUp>
             <FadeUp delay={150}>
               <div className="rounded-[16px] overflow-hidden">
-                <ImgPlaceholder
+                {/* <ImgPlaceholder
                   label={photos[4].label}
                   className="w-full h-[100px]"
-                />
+                /> */}
               </div>
             </FadeUp>
           </div>
@@ -105,18 +105,18 @@ export default function ResultsGallery() {
           <div className="flex flex-col gap-4">
             <FadeUp delay={100}>
               <div className="rounded-[16px] overflow-hidden">
-                <ImgPlaceholder
+                {/* <ImgPlaceholder
                   label={photos[5].label}
                   className="w-full h-[220px]"
-                />
+                /> */}
               </div>
             </FadeUp>
             <FadeUp delay={160}>
               <div className="rounded-[16px] overflow-hidden">
-                <ImgPlaceholder
+                {/* <ImgPlaceholder
                   label={photos[6].label}
                   className="w-full h-[220px]"
-                />
+                /> */}
               </div>
             </FadeUp>
           </div>
@@ -124,19 +124,19 @@ export default function ResultsGallery() {
           <div className="flex flex-col gap-4">
             <FadeUp delay={120}>
               <div className="rounded-[16px] overflow-hidden">
-                <ImgPlaceholder
+                {/* <ImgPlaceholder
                   label={photos[7].label}
                   className="w-full h-[160px]"
-                />
+                /> */}
               </div>
             </FadeUp>
             <FadeUp delay={180}>
               <div className="rounded-[16px] overflow-hidden relative">
-                <ImgPlaceholder
+                {/* <ImgPlaceholder
                   label="Unique Science Classes — result celebration banner 2024"
                   className="w-full h-[280px]"
                   dark
-                />
+                /> */}
                 {/* Overlay text */}
                 <div className="absolute inset-0 flex flex-col items-center justify-center bg-[#0F1F45]/80 p-4 text-center">
                   <div className="font-['Sora'] text-[36px] font-extrabold text-white leading-none">
