@@ -5,23 +5,23 @@ export function Testimonials() {
   const reviews = [
     {
       stars: 5,
-      text: "Joining Unique Science Classes was the best decision of my life. The faculty's dedication and structured approach helped me crack NEET in my very first attempt with a score of 680/720. I can't thank this institute enough!",
-      name: "Rahul Kumar",
-      role: "NEET 2024 — AIR 2140",
+      text: "Joining Unique Science Classes was the best decision of my life. The faculty's dedication and structured approach helped me crack Bord Exam in my very first attempt with a score of 412/500. I can't thank this institute enough!",
+      name: "Md Tarique",
+      role: "BSEB 2025",
       initial: "R",
     },
     {
       stars: 5,
-      text: "The JEE preparation at Unique Science Classes is phenomenal. Daily problem-solving sessions, thorough concept building, and constant motivation from teachers made all the difference. Highly recommend to every science student.",
-      name: "Priya Singh",
-      role: "JEE Mains 2024 — 97.8 Percentile",
+      text: "The JEE preparation at Unique Science Classes is phenomenal. Daily problem-solving sessions, thorough concept building, and constant motivation from teachers made all the difference. Highly recommend to every science student.  381/500",
+      name: "Sushil Kumar",
+      role: "BSEB 2024",
       initial: "P",
     },
     {
       stars: 5,
-      text: "Unique Science Classes transformed how I approach science. The teachers explain complex topics with such clarity. My BSEB board results improved from 72% to 96% in just one year of coaching here.",
-      name: "Tina Henry",
-      role: "BSEB Class 10 Topper 2024",
+      text: "Unique Science Classes transformed how I approach science. The teachers explain complex topics with such clarity. My BSEB board 407/500 results improved from 72% to 96% in just one year of coaching here.",
+      name: "Nazihh Nehal",
+      role: "BSEB 2024",
       initial: "T",
     },
   ];

@@ -4,40 +4,40 @@ export default function ResultsTable() {
   const rows = [
     {
       year: "2024",
-      neet: "320+",
-      jee: "180+",
+      // neet: "320+",
+      // jee: "180+",
       board10: "350+",
       board12: "280+",
       topScore: "680/720 (NEET)",
     },
     {
       year: "2023",
-      neet: "290+",
-      jee: "155+",
+      // neet: "290+",
+      // jee: "155+",
       board10: "310+",
       board12: "255+",
       topScore: "672/720 (NEET)",
     },
     {
       year: "2022",
-      neet: "265+",
-      jee: "130+",
+      // neet: "265+",
+      // jee: "130+",
       board10: "275+",
       board12: "220+",
       topScore: "668/720 (NEET)",
     },
     {
       year: "2021",
-      neet: "230+",
-      jee: "110+",
+      // neet: "230+",
+      // jee: "110+",
       board10: "240+",
       board12: "195+",
       topScore: "98.2% (CBSE)",
     },
     {
       year: "2020",
-      neet: "195+",
-      jee: "95+",
+      // neet: "195+",
+      // jee: "95+",
       board10: "210+",
       board12: "170+",
       topScore: "97.8% (BSEB)",
@@ -68,8 +68,8 @@ export default function ResultsTable() {
                 <tr className="bg-[#0F1F45]">
                   {[
                     "Year",
-                    "NEET Selections",
-                    "JEE Qualifiers",
+                    // "NEET Selections",
+                    // "JEE Qualifiers",
                     "Class 10 Passed",
                     "Class 12 Passed",
                     "Top Score",
@@ -101,7 +101,7 @@ export default function ResultsTable() {
                         </span>
                       )}
                     </td>
-                    <td className="px-5 py-4 text-center">
+                    {/* <td className="px-5 py-4 text-center">
                       <span className="font-['Sora'] text-[15px] font-bold text-purple-700">
                         {row.neet}
                       </span>
@@ -110,7 +110,7 @@ export default function ResultsTable() {
                       <span className="font-['Sora'] text-[15px] font-bold text-orange-600">
                         {row.jee}
                       </span>
-                    </td>
+                    </td> */}
                     <td className="px-5 py-4 text-center">
                       <span className="font-['Sora'] text-[15px] font-bold text-green-700">
                         {row.board10}

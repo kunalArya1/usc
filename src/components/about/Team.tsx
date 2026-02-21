@@ -5,28 +5,22 @@ import { IconLinkedIn } from "@/utils/icons";
 export default function Team() {
   const members = [
     {
-      name: "Dr. Rajesh Kumar",
-      role: "Physics & Mathematics",
+      name: "Shahid anwar sir",
+      role: "Physics & Chemsitry",
       bio: "IIT Patna alumnus with 12 years of JEE coaching experience. Specialist in mechanics, electrostatics, and calculus.",
       imgLabel:
         "Faculty photo: Mr. Rajesh Kumar, Physics teacher, professional portrait",
       tag: "Math Expert",
+      imagePath: "/sahid.png",
     },
     {
-      name: "Dr. Sunita Devi",
-      role: "Biology",
+      name: "Arjun Sir",
+      role: "Math",
       bio: "AIIMS-qualified doctor turned educator. Has personally guided 200+ NEET selections with her unique mnemonics-based teaching.",
       imgLabel:
         "Faculty photo: Dr. Sunita Devi, Biology teacher, professional portrait",
       tag: "Biology Expert",
-    },
-    {
-      name: "Mr. Amit Srivastava",
-      role: "Chemistry — PCM/PCB",
-      bio: "MSc Chemistry, BHU. Expert in Organic & Inorganic Chemistry. Known for making complex reactions simple and memorable.",
-      imgLabel:
-        "Faculty photo: Mr. Amit Srivastava, Chemistry teacher, professional portrait",
-      tag: "Chemistry Expert",
+      imagePath: "./arjun-sir.png",
     },
   ];
 
@@ -46,7 +40,7 @@ export default function Team() {
         </FadeUp>
 
         {/* Team cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-7">
           {members.map((m, i) => (
             <FadeUp key={i} delay={i * 110}>
               <div className="rounded-[20px] overflow-hidden border border-[#E2E8F0] hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 group bg-white">
@@ -55,11 +49,12 @@ export default function Team() {
                   <ImgPlaceholder
                     label={m.imgLabel}
                     className="w-full h-full min-h-[220px] group-hover:scale-105 transition-transform duration-500"
+                    imagePath={m.imagePath}
                   />
                   {/* Tag badge */}
-                  <div className="absolute top-3 left-3 bg-[#E5232E] text-white font-['Sora'] text-[10px] font-bold tracking-wider px-3 py-1 rounded-full">
+                  {/* <div className="absolute top-3 left-3 bg-[#E5232E] text-white font-['Sora'] text-[10px] font-bold tracking-wider px-3 py-1 rounded-full">
                     {m.tag}
-                  </div>
+                  </div> */}
                 </div>
 
                 {/* Info row */}
@@ -76,13 +71,13 @@ export default function Team() {
                     </p>
                   </div>
                   {/* LinkedIn icon */}
-                  <a
+                  {/* <a
                     href="#"
                     aria-label="LinkedIn"
                     className="w-8 h-8 bg-[#0A66C2] text-white rounded-[7px] flex items-center justify-center flex-shrink-0 hover:bg-[#084B8A] transition-colors no-underline mt-0.5"
                   >
                     <IconLinkedIn />
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </FadeUp>

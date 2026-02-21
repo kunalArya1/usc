@@ -18,7 +18,7 @@ export default function HeroBanner() {
                 to Your <span className="text-[#E5232E]">Goals</span>
               </h1>
               <p className="text-[16px] text-[#4A5568] leading-[1.75] max-w-[540px]">
-                From Class 10 boards to NEET & JEE, we offer structured,
+                From Class 8-12 boards to NEET & JEE, we offer structured,
                 expert-led courses designed to take every student from
                 foundation to final result — systematically and confidently.
               </p>

@@ -6,7 +6,7 @@ export function WhyChoose() {
     {
       icon: <IconGraduate />,
       title: "Expert Faculty",
-      desc: "Our team of IIT and AIIMS alumni bring deep subject expertise, mentoring students with proven strategies and personalized guidance.",
+      desc: "Our faculities bring deep subject expertise, mentoring students with proven strategies and personalized guidance.",
     },
     {
       icon: <IconTarget />,
@@ -16,6 +16,11 @@ export function WhyChoose() {
     {
       icon: <IconUsers />,
       title: "Small Batch Sizes",
+      desc: "Limited seats per batch ensure every student receives individual attention. No student gets left behind in our focused learning environment.",
+    },
+    {
+      icon: <IconUsers />,
+      title: "OneStop solution",
       desc: "Limited seats per batch ensure every student receives individual attention. No student gets left behind in our focused learning environment.",
     },
   ];
@@ -31,7 +36,7 @@ export function WhyChoose() {
             </span>
           </div>
           <h2 className="font-['Sora'] text-[36px] md:text-[44px] font-extrabold text-white leading-[1.15]">
-            We Offer Bihar's Most Trusted
+            We Offer Dhaka's Most Trusted
             <br />
             Science Coaching
           </h2>

@@ -18,8 +18,8 @@ export default function MapSection() {
             Visit Our <span className="text-[#E5232E]">Institute</span>
           </h2>
           <p className="text-[15px] text-[#4A5568] mt-3 max-w-[480px] mx-auto">
-            Conveniently located near the Main Road in Dhaka Block, Bhojpur,
-            Bihar — easy to reach from all nearby villages and towns.
+            Conveniently located near the Main Road in Baba Market,Bairganiya
+            Road Dhaka Bihar — easy to reach from all nearby villages and towns.
           </p>
         </FadeUp>
 
@@ -103,7 +103,7 @@ export default function MapSection() {
                     Unique Science Classes
                   </div>
                   <div className="text-[12px] text-[#4A5568] mt-0.5">
-                    Near Main Road, Dhaka, Bihar 802301
+                    Baba Market,Bairganiya Road Dhaka,Bihar 845418
                   </div>
                 </div>
                 <a
@@ -138,9 +138,9 @@ export default function MapSection() {
                 <p className="text-[14px] text-[#4A5568] leading-[1.75] mb-4">
                   Unique Science Classes
                   <br />
-                  Near Main Road, Dhaka Block
+                  Baba Market,Bairganiya Road Dhaka
                   <br />
-                  Bhojpur, Bihar — 802301
+                  Dhaka, Bihar — 845418
                   <br />
                   India
                 </p>
@@ -197,7 +197,7 @@ export default function MapSection() {
 
               {/* Quick call CTA */}
               <a
-                href="tel:+919876543210"
+                href="tel:+916287247735"
                 className="bg-[#E5232E] hover:bg-[#C41920] text-white font-['Sora'] font-semibold text-[15px] px-6 py-4 rounded-[14px] no-underline transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-red-200 flex items-center justify-center gap-2"
               >
                 <IconMapPin /> Call for Directions

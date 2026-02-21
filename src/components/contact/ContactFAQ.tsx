@@ -20,11 +20,7 @@ export default function ContactFAQ() {
     },
     {
       q: "Can I get the fee structure and batch schedule over WhatsApp?",
-      a: "Absolutely. Just send us a message on WhatsApp at +91 98765 43210 and we'll share the complete fee structure, batch timings, and syllabus overview immediately.",
-    },
-    {
-      q: "Do you provide hostel or accommodation facilities?",
-      a: "We don't run a hostel directly, but we can connect you with trusted PG and hostel options near our institute. Many students from outside Dhaka rely on these for their stay during coaching.",
+      a: "Absolutely. Just send us a message on WhatsApp at +91 6287247735 and we'll share the complete fee structure, batch timings, and syllabus overview immediately.",
     },
   ];
 
@@ -93,7 +89,7 @@ export default function ContactFAQ() {
           <p className="text-[14px] text-[#4A5568]">
             Still have a question?{" "}
             <a
-              href="tel:+919876543210"
+              href="tel:+916287247735"
               className="font-['Sora'] font-semibold text-[#E5232E] hover:underline no-underline"
             >
               Call us directly →

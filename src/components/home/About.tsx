@@ -18,8 +18,8 @@ export function About() {
   ];
   const miniCards = [
     { icon: <IconGraduate />, val: "5+", label: "Expert Faculties" },
-    { icon: <IconTrophy />, val: "100+", label: "Board Topper" },
-    { icon: <IconBookOpen />, val: "4", label: "Courses Offered" },
+    { icon: <IconTrophy />, val: "10+", label: "Board Topper" },
+    { icon: <IconBookOpen />, val: "5", label: "Courses Offered" },
     { icon: <IconUsers />, val: "100+", label: "Alumni Network" },
   ];
 
@@ -31,15 +31,12 @@ export function About() {
           <FadeUp>
             <div className="relative">
               <div className="rounded-[20px] overflow-hidden shadow-2xl aspect-[5/4] relative">
-                <ImgPlaceholder
-                  label="About image: Faculty teaching in modern classroom, whiteboard with science diagrams"
-                  className="w-full h-full min-h-[340px]"
-                />
+                <img src="result.jpeg" alt="" />
               </div>
               {/* Years badge */}
               <div className="absolute -bottom-5 -right-5 bg-[#E5232E] text-white rounded-[18px] p-5 text-center shadow-xl shadow-red-200/50">
                 <div className="font-['Sora'] text-[38px] font-extrabold leading-none">
-                  8+
+                  5+
                 </div>
                 <div className="text-[12px] opacity-85 mt-1 leading-tight">
                   Years of

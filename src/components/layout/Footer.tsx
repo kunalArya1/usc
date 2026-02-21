@@ -18,10 +18,11 @@ function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           {/* Logo */}
           <a href="/" className="flex items-center gap-3 no-underline">
-            <div className="w-10 h-10 bg-[#E5232E] rounded-xl flex items-center justify-center">
-              <svg viewBox="0 0 24 24" fill="white" className="w-6 h-6">
+            <div className="w-9 h-9  rounded-2xl flex items-center justify-center">
+              {/* <svg viewBox="0 0 24 24" fill="white" className="w-6 h-6">
                 <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
-              </svg>
+              </svg> */}
+              <img src="/usclogo.png" alt="" />
             </div>
             <div>
               <div className="font-['Sora'] font-extrabold text-[15px] leading-tight">

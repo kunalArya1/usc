@@ -23,7 +23,7 @@ export default function HeroBanner() {
             </div>
             {/* Year filter tabs */}
             <div className="flex flex-wrap gap-2 mb-1">
-              {["2024", "2023", "2022", "2021"].map((yr, i) => (
+              {["2026", "2025", "2023", "2022", "2021"].map((yr, i) => (
                 <button
                   key={yr}
                   className={`font-['Sora'] text-[13px] font-semibold px-5 py-2.5 rounded-full border transition-all duration-200 ${

@@ -16,7 +16,7 @@ export default function QuickContact() {
       title: "WhatsApp Us",
       desc: "Send us a message on WhatsApp for quick responses. Share your questions, get batch schedules, or ask about fees instantly.",
       cta: "Chat on WhatsApp",
-      href: "https://wa.me/919876543210?text=Hello%2C%20I%20want%20to%20know%20more%20about%20courses%20at%20Unique%20Science%20Classes",
+      href: "https://wa.me/916287247735?text=Hello%2C%20I%20want%20to%20know%20more%20about%20courses%20at%20Unique%20Science%20Classes",
       ctaBg: "bg-green-500 hover:bg-green-600",
     },
     {
@@ -24,8 +24,8 @@ export default function QuickContact() {
       iconBg: "bg-[#E5232E]",
       title: "Call Us Directly",
       desc: "Speak directly with our academic counsellor. We're available Monday to Saturday, 8 AM to 8 PM, always ready to guide you.",
-      cta: "Call +91 98765 43210",
-      href: "tel:+919876543210",
+      cta: "Call +91 6287247735",
+      href: "tel:+916287247735",
       ctaBg: "bg-[#E5232E] hover:bg-[#C41920]",
     },
     {
@@ -34,7 +34,7 @@ export default function QuickContact() {
       title: "Email Enquiry",
       desc: "For detailed queries, fee breakdowns, syllabus downloads, or batch schedules, drop us an email — we respond within 4 hours.",
       cta: "Send an Email",
-      href: "mailto:info@uniquescienceclasses.in",
+      href: "mailto:uniquescinececlassesdhaka@gmail.com",
       ctaBg: "bg-[#1D6FDE] hover:bg-[#155BB5]",
     },
   ];

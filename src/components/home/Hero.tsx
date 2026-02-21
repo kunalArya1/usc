@@ -29,9 +29,9 @@ export function Hero() {
         if (current >= target) clearInterval(timer);
       }, 16);
     };
-    const t1 = setTimeout(() => animate(setCount1, 2500, 2000), 400);
+    const t1 = setTimeout(() => animate(setCount1, 500, 2000), 400);
     const t2 = setTimeout(() => animate(setCount2, 98, 1800), 600);
-    const t3 = setTimeout(() => animate(setCount3, 8, 1200), 800);
+    const t3 = setTimeout(() => animate(setCount3, 5, 1200), 800);
     return () => {
       clearTimeout(t1);
       clearTimeout(t2);
@@ -62,7 +62,7 @@ export function Hero() {
                 style={{ animation: "pulse 2s infinite" }}
               />
               <span className="font-['Sora'] text-[12px] font-600 font-semibold text-[#E5232E]">
-                Admissions Open — 2025 Batch
+                Admissions Open — 2026 Batch
               </span>
             </div>
 
@@ -80,7 +80,7 @@ export function Hero() {
               style={{ animation: "fadeInUp 0.7s ease 0.2s both" }}
             >
               Unique Science Classes in Dhaka, Bihar delivers result-driven
-              coaching for Class 10 (CBSE & BSEB), Class 11–12 Science. Learn
+              coaching for Class 8-10 (CBSE & BSEB), Class 11–12 Science. Learn
               from expert faculty who've shaped hundreds of toppers.
             </p>
 
@@ -186,10 +186,10 @@ export function Hero() {
               </div>
               <div>
                 <div className="font-['Sora'] text-[18px] font-extrabold text-[#0D1836] leading-none">
-                  320+
+                  250+
                 </div>
                 <div className="text-[11px] text-[#8A96AB]">
-                  NEET Selections
+                  BSEB Selections
                 </div>
               </div>
             </div>

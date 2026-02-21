@@ -2,10 +2,10 @@ import { FadeUp } from "@/utils/hooks";
 
 export default function StatsBand() {
   const stats = [
-    { value: "2500+", label: "Students Enrolled" },
+    { value: "400+", label: "Students Enrolled" },
     { value: "98%", label: "Success Rate" },
-    { value: "500+", label: "NEET/JEE Selections" },
-    { value: "25+", label: "Expert Faculty" },
+    { value: "500+", label: "Board Results" },
+    { value: "8+", label: "Expert Faculty" },
   ];
 
   return (

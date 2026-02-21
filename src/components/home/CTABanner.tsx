@@ -31,7 +31,7 @@ export function CTABanner() {
           </h2>
           <p className="text-[16px] text-white/65 leading-[1.75] max-w-[540px] mx-auto mb-10">
             Join hundreds of toppers who built their success story at Unique
-            Science Classes, Dhaka. New batches for Class 10, 11–12, NEET & JEE
+            Science Classes, Dhaka. New batches for Class 8–12, NEET & JEE
             starting soon.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4">

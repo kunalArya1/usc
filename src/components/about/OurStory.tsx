@@ -5,9 +5,9 @@ import { IconCheck, IconArrowRight } from "@/utils/icons";
 export default function OurStory() {
   const checks = [
     "98% Student Satisfaction Rate",
-    "Over 100 Board Topper",
-    "5+ Qualified Expert Faculty",
-    "85% Students Clear in First Attempt",
+    "Over 10 Board Topper",
+    "8+ Qualified Expert Faculty",
+    "90% Students Clear in First Attempt",
   ];
 
   return (
@@ -19,10 +19,7 @@ export default function OurStory() {
             <div className="relative">
               {/* Main image */}
               <div className="rounded-[18px] overflow-hidden shadow-xl aspect-[5/4]">
-                <ImgPlaceholder
-                  label="Our story image: Teacher explaining science concept enthusiastically at board"
-                  className="w-full h-full min-h-[320px]"
-                />
+                <img src="/result.jpeg" alt="" />
               </div>
 
               {/* Years badge — bottom-left overlap */}
@@ -46,7 +43,7 @@ export default function OurStory() {
                 </div>
                 <div>
                   <div className="font-['Sora'] text-[24px] font-extrabold leading-none">
-                    8+
+                    5+
                   </div>
                   <div className="text-[11px] text-white/65 mt-0.5">
                     Years of Excellence

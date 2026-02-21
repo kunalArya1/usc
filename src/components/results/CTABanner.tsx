@@ -42,7 +42,7 @@ export default function CTABanner() {
               Enroll Now <IconArrowRight />
             </a>
             <a
-              href="tel:+919876543210"
+              href="tel:+916287247735"
               className="inline-flex items-center gap-2 border-2 border-white/30 hover:border-white/60 text-white font-['Sora'] font-semibold text-[15px] px-8 py-4 rounded-full transition-all duration-200 no-underline"
             >
               <IconPhone /> Call Us Now

@@ -50,19 +50,16 @@ export default function ContactMain() {
       iconBg: "bg-red-50",
       iconColor: "text-[#E5232E]",
       title: "Call / WhatsApp",
-      lines: ["+91 98765 43210", "+91 87654 32109"],
+      lines: ["+91 6287247735", "+91 7065484607"],
       sub: "Mon–Sat, 8 AM – 8 PM",
-      action: { label: "Call Now", href: "tel:+919876543210" },
+      action: { label: "Call Now", href: "tel:+916287247735" },
     },
     {
       icon: <IconMail />,
       iconBg: "bg-blue-50",
       iconColor: "text-[#1D6FDE]",
       title: "Email Us",
-      lines: [
-        "info@uniquescienceclasses.in",
-        "admissions@uniquescienceclasses.in",
-      ],
+      lines: ["uniquescinececlassesdhaka@gmail.com"],
       sub: "We reply within 2–4 hours",
       action: {
         label: "Send Email",
@@ -74,7 +71,7 @@ export default function ContactMain() {
       iconBg: "bg-green-50",
       iconColor: "text-green-600",
       title: "Visit Us",
-      lines: ["Near Main Road, Dhaka", "Bhojpur, Bihar — 802301"],
+      lines: ["Baba Market,Bairganiya Road Dhaka", "Dhaka, Bihar — 845418"],
       sub: "Mon–Sat 8AM–7PM, Sun 10AM–2PM",
       action: { label: "Get Directions", href: "https://maps.google.com" },
     },
@@ -186,12 +183,12 @@ export default function ContactMain() {
                       href: "#",
                       color: "bg-[#1877F2] hover:bg-[#145dbf]",
                     },
-                    {
-                      icon: <IconLinkedIn />,
-                      label: "LinkedIn",
-                      href: "#",
-                      color: "bg-[#0A66C2] hover:bg-[#084B8A]",
-                    },
+                    // {
+                    //   icon: <IconLinkedIn />,
+                    //   label: "LinkedIn",
+                    //   href: "#",
+                    //   color: "bg-[#0A66C2] hover:bg-[#084B8A]",
+                    // },
                   ].map((s) => (
                     <a
                       key={s.label}

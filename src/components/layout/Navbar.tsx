@@ -59,17 +59,18 @@ function Navbar() {
         <div className="max-w-[1200px] mx-auto px-6 h-[68px] flex items-center justify-between">
           {/* Logo */}
           <a href="/" className="flex items-center gap-3 no-underline">
-            <div className="w-10 h-10 bg-[#E5232E] rounded-xl flex items-center justify-center shadow-md shadow-red-200">
-              <svg viewBox="0 0 24 24" fill="white" className="w-6 h-6">
+            <div className="w-9 h-9  rounded-2xl flex items-center justify-center shadow-md shadow-red-200">
+              {/* <svg viewBox="0 0 24 24" fill="white" className="w-6 h-6">
                 <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
-              </svg>
+              </svg> */}
+              <img src="/usclogo.png" alt="" />
             </div>
             <div>
               <div className="font-['Sora'] font-extrabold text-[15px] text-[#0D1836] leading-tight">
-                Unique Science
+                Unique Science Classes
               </div>
               <div className="font-['Sora'] text-[10px] text-[#8A96AB] font-medium tracking-widest uppercase">
-                Classes · Dhaka, Bihar
+                · Dhaka, Bihar
               </div>
             </div>
           </a>

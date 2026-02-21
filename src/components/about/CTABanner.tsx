@@ -42,8 +42,8 @@ export default function CTABanner() {
           </h2>
 
           <p className="text-[15px] text-white/60 leading-[1.75] max-w-[480px] mx-auto mb-10">
-            New batches for Class 10 & 11–12 Science are starting soon. Limited
-            seats — enrol today.
+            New batches for Class 8 –12 are starting soon. Limited seats — enrol
+            today.
           </p>
 
           <a

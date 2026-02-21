@@ -2,22 +2,22 @@ import { AnimatedCounter, FadeUp } from "@/utils/hooks";
 
 export default function StatsBand() {
   const stats = [
-    { target: 2500, suffix: "+", label: "Total Students", sub: "since 2016" },
+    { target: 500, suffix: "+", label: "Total Students", sub: "since 2016" },
     { target: 98, suffix: "%", label: "Success Rate", sub: "board exams" },
     {
-      target: 320,
+      target: 100,
       suffix: "+",
-      label: "NEET Selections",
+      label: "BSEB Selections",
       sub: "in 2024 alone",
     },
     {
-      target: 180,
+      target: 100,
       suffix: "+",
-      label: "JEE Qualifiers",
+      label: "CBSE Qualifiers",
       sub: "Mains & Advanced",
     },
     {
-      target: 8,
+      target: 5,
       suffix: "+",
       label: "Years of Excellence",
       sub: "in Dhaka, Bihar",

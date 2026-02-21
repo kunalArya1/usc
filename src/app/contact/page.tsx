@@ -34,7 +34,7 @@ export default function ContactPage() {
         <ContactMain />
         <MapSection />
         <QuickContact />
-        <MiniTestimonials />
+        {/* <MiniTestimonials /> */}
         <ContactFAQ />
       </main>
 
