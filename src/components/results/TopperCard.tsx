@@ -11,16 +11,22 @@ export interface TopperData {
   tagColor: string;
   initial: string;
   color: string;
+  imagePath: string;
+  marks: string;
 }
 
 export default function TopperCard({
   topper,
   index,
   featured = false,
+  imagePath,
+  marks,
 }: {
   topper: TopperData;
   index: number;
   featured?: boolean;
+  imagePath: string;
+  marks: string;
 }) {
   return (
     <FadeUp delay={index * 80}>
@@ -33,6 +39,7 @@ export default function TopperCard({
             label={`${topper.name} — ${topper.tag} topper ${topper.year}, student portrait`}
             className="w-full h-full group-hover:scale-105 transition-transform duration-500"
           /> */}
+          <img src={imagePath} alt="" />
           {/* Rank badge — top left */}
           {featured && (
             <div className="absolute top-3 right-3 bg-[#E5232E] text-white font-['Sora'] text-[10px] font-bold px-3 py-1.5 rounded-full shadow-md">
@@ -92,13 +99,13 @@ export default function TopperCard({
                 className="text-[10px] font-['Sora'] uppercase tracking-wider mb-0.5"
                 style={{ color: topper.color, opacity: 0.7 }}
               >
-                Rank / College
+                Marks
               </div>
               <div
                 className="font-['Sora'] text-[14px] font-extrabold leading-tight"
                 style={{ color: topper.color }}
               >
-                {topper.rank}
+                {marks}
               </div>
             </div>
           </div>

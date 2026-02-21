@@ -16,9 +16,9 @@ export default function HeroBanner() {
                 <span className="text-[#E5232E]">Possible Here.</span>
               </h1>
               <p className="text-[16px] text-[#4A5568] leading-[1.75] max-w-[540px]">
-                Every year, our students set new benchmarks — in NEET, JEE, CBSE
-                and Bihar Board. These are real students, real ranks, and real
-                transformations. Their success is our purpose.
+                Every year, our students set new benchmarks — in Board Exams.
+                These are real students, real ranks, and real transformations.
+                Their success is our purpose.
               </p>
             </div>
             {/* Year filter tabs */}

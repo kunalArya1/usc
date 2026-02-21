@@ -35,9 +35,9 @@ export default function ResultsPage() {
         {/* <NEETToppers /> */}
         {/* <JEEToppers /> */}
         <BoardToppers title={"BSEB"} />
-        <BoardToppers title={"CBSE"} />
+        {/* <BoardToppers title={"CBSE"} /> */}
         <ResultsTable />
-        <ResultsGallery />
+        {/* <ResultsGallery /> */}
         <Testimonials />
         {/* <AchievementsBand /> */}
         <CTABanner />

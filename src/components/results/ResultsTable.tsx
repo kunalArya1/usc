@@ -3,43 +3,43 @@ import { FadeUp } from "@/utils/hooks";
 export default function ResultsTable() {
   const rows = [
     {
-      year: "2024",
-      // neet: "320+",
-      // jee: "180+",
-      board10: "350+",
-      board12: "280+",
+      year: "2025",
+      class8: "160+",
+      class9: "155+",
+      board10: "158+",
+      board12: "150+",
       topScore: "680/720 (NEET)",
     },
     {
-      year: "2023",
-      // neet: "290+",
-      // jee: "155+",
-      board10: "310+",
-      board12: "255+",
+      year: "2024",
+      class8: "150+",
+      class9: "148+",
+      board10: "150+",
+      board12: "142+",
       topScore: "672/720 (NEET)",
     },
     {
-      year: "2022",
-      // neet: "265+",
-      // jee: "130+",
-      board10: "275+",
-      board12: "220+",
+      year: "2023",
+      class8: "140+",
+      class9: "138+",
+      board10: "142+",
+      board12: "135+",
       topScore: "668/720 (NEET)",
     },
     {
-      year: "2021",
-      // neet: "230+",
-      // jee: "110+",
-      board10: "240+",
-      board12: "195+",
+      year: "2022",
+      class8: "130+",
+      class9: "128+",
+      board10: "132+",
+      board12: "125+",
       topScore: "98.2% (CBSE)",
     },
     {
-      year: "2020",
-      // neet: "195+",
-      // jee: "95+",
-      board10: "210+",
-      board12: "170+",
+      year: "2021",
+      class8: "120+",
+      class9: "118+",
+      board10: "122+",
+      board12: "115+",
       topScore: "97.8% (BSEB)",
     },
   ];
@@ -68,11 +68,11 @@ export default function ResultsTable() {
                 <tr className="bg-[#0F1F45]">
                   {[
                     "Year",
-                    // "NEET Selections",
-                    // "JEE Qualifiers",
-                    "Class 10 Passed",
-                    "Class 12 Passed",
-                    "Top Score",
+                    "Class 8",
+                    "class 9",
+                    "Class 10",
+                    "Class 12",
+                    // "Top Score",
                   ].map((h, i) => (
                     <th
                       key={i}
@@ -101,16 +101,16 @@ export default function ResultsTable() {
                         </span>
                       )}
                     </td>
-                    {/* <td className="px-5 py-4 text-center">
+                    <td className="px-5 py-4 text-center">
                       <span className="font-['Sora'] text-[15px] font-bold text-purple-700">
-                        {row.neet}
+                        {row.class8}
                       </span>
                     </td>
                     <td className="px-5 py-4 text-center">
                       <span className="font-['Sora'] text-[15px] font-bold text-orange-600">
-                        {row.jee}
+                        {row.class9}
                       </span>
-                    </td> */}
+                    </td>
                     <td className="px-5 py-4 text-center">
                       <span className="font-['Sora'] text-[15px] font-bold text-green-700">
                         {row.board10}
@@ -121,11 +121,11 @@ export default function ResultsTable() {
                         {row.board12}
                       </span>
                     </td>
-                    <td className="px-5 py-4 text-center">
+                    {/* <td className="px-5 py-4 text-center">
                       <span className="font-['Sora'] text-[13px] font-semibold text-[#0D1836]">
                         {row.topScore}
                       </span>
-                    </td>
+                    </td> */}
                   </tr>
                 ))}
               </tbody>
