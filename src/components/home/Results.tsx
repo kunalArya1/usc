@@ -28,16 +28,16 @@ export function Results() {
       imgPath: "/students/4.jpeg",
     },
     {
-      name: "Rohan Mishra",
-      score: "JEE Adv Qualified",
-      rank: "IIT-JEE 2024",
-      imgPath: "",
+      name: "Abdur rahman",
+      score: "BSEB topper",
+      rank: "378/500",
+      imgPath: "/students/5.jpeg",
     },
     {
-      name: "Kavita Raj",
-      score: "CBSE 98.2%",
-      rank: "School Topper",
-      imgPath: "",
+      name: "Faizan alam",
+      score: "BSEB topper",
+      rank: "324/500",
+      imgPath: "/students/6.png",
     },
   ];
 

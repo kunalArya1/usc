@@ -70,7 +70,7 @@ export function Hero() {
               className="font-['Sora'] text-[44px] md:text-[56px] lg:text-[62px] font-extrabold text-[#0D1836] leading-[1.08] mb-5"
               style={{ animation: "fadeInUp 0.7s ease 0.1s both" }}
             >
-              Excel in CBSE,<span className="text-[#E5232E]"> & BSEB</span>
+              Excel in CBSE<span className="text-[#E5232E]"> & BSEB</span>
               <br />
               Board Exams
             </h1>
