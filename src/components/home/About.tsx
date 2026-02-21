@@ -105,12 +105,12 @@ export function About() {
               ))}
             </div>
 
-            <a
+            {/* <a
               href="#courses"
               className="inline-flex items-center gap-2 bg-[#0F1F45] hover:bg-[#1A2E5C] text-white font-['Sora'] font-semibold text-[14px] px-7 py-3.5 rounded-full transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg no-underline"
             >
               Explore Our Courses <IconArrowRight />
-            </a>
+            </a> */}
           </FadeUp>
         </div>
       </div>

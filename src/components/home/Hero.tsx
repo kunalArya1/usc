@@ -95,12 +95,12 @@ export function Hero() {
               >
                 Get Free Counselling
               </a>
-              <a
+              {/* <a
                 href="#courses"
                 className="inline-flex items-center gap-2 border-2 border-gray-200 hover:border-[#E5232E] hover:text-[#E5232E] text-[#0D1836] font-['Sora'] font-semibold text-[15px] px-7 py-3.5 rounded-full transition-all duration-200 no-underline"
               >
-                Explore Courses <IconArrowRight />
-              </a>
+                 <IconArrowRight />
+              </a> */}
             </div>
 
             {/* Stats row */}
