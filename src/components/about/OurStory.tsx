@@ -19,7 +19,7 @@ export default function OurStory() {
             <div className="relative">
               {/* Main image */}
               <div className="rounded-[18px] overflow-hidden shadow-xl aspect-[5/4]">
-                <img src="/result.jpeg" alt="" />
+                <img src="/result.png" alt="" />
               </div>
 
               {/* Years badge — bottom-left overlap */}

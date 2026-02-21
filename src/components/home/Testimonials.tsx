@@ -12,16 +12,16 @@ export function Testimonials() {
     },
     {
       stars: 5,
-      text: "The JEE preparation at Unique Science Classes is phenomenal. Daily problem-solving sessions, thorough concept building, and constant motivation from teachers made all the difference. Highly recommend to every science student.  381/500",
+      text: "Unique Science Classes completely changed my approach to science. The teachers make even the most complex topics easy to understand. With their guidance, I scored 381/500 in my BSEB board exams.",
       name: "Sushil Kumar",
       role: "BSEB 2024",
       initial: "P",
     },
     {
       stars: 5,
-      text: "Unique Science Classes transformed how I approach science. The teachers explain complex topics with such clarity. My BSEB board 407/500 results improved from 72% to 96% in just one year of coaching here.",
-      name: "Nazihh Nehal",
-      role: "BSEB 2024",
+      text: "Unique Science Classes transformed the way I approach science. The teachers explain complex topics with great clarity. I scored 417/500 in my BSEB board exams with their guidance.",
+      name: "Aniket Kumar ",
+      role: "BSEB 2023",
       initial: "T",
     },
   ];

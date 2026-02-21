@@ -18,11 +18,6 @@ export function WhyChoose() {
       title: "Small Batch Sizes",
       desc: "Limited seats per batch ensure every student receives individual attention. No student gets left behind in our focused learning environment.",
     },
-    {
-      icon: <IconUsers />,
-      title: "OneStop solution",
-      desc: "Limited seats per batch ensure every student receives individual attention. No student gets left behind in our focused learning environment.",
-    },
   ];
 
   return (

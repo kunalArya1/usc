@@ -30,13 +30,12 @@ export function Contact() {
                 {
                   icon: <IconMapPin />,
                   label: "Address",
-                  value:
-                    "Unique Science Classes, Near Main Road, Dhaka, Bhojpur, Bihar — 802301",
+                  value: "Baba Market,Bairganiya Road Dhaka , Bihar — 845418",
                 },
                 {
                   icon: <IconPhone />,
                   label: "Phone",
-                  value: "+91 98765 43210 / +91 87654 32109",
+                  value: "+91 6287247735 / +91 7065484607",
                 },
                 {
                   icon: (
@@ -54,7 +53,7 @@ export function Contact() {
                     </svg>
                   ),
                   label: "Email",
-                  value: "info@uniquescienceclasses.in",
+                  value: "uniquescinececlassesdhaka@gmail.com",
                 },
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-4">
@@ -112,8 +111,9 @@ export function Contact() {
                   </label>
                   <select className="w-full bg-white border border-[#E2E8F0] rounded-[10px] px-4 py-3 text-[14px] text-[#0D1836] outline-none focus:border-[#1D6FDE] focus:ring-2 focus:ring-blue-100 transition-all">
                     <option value="">Select a course</option>
-                    <option>Class 10 — CBSE</option>
-                    <option>Class 10 — BSEB (Bihar Board)</option>
+                    <option>Class 8</option>
+                    <option>Class 9</option>
+                    <option>Class 10</option>
                     <option>Class 11–12 Science</option>
                     <option>NEET Preparation</option>
                     <option>JEE Preparation</option>

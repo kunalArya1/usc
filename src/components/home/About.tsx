@@ -31,7 +31,7 @@ export function About() {
           <FadeUp>
             <div className="relative">
               <div className="rounded-[20px] overflow-hidden shadow-2xl aspect-[5/4] relative">
-                <img src="result.jpeg" alt="" />
+                <img src="result.png" alt="" />
               </div>
               {/* Years badge */}
               <div className="absolute -bottom-5 -right-5 bg-[#E5232E] text-white rounded-[18px] p-5 text-center shadow-xl shadow-red-200/50">

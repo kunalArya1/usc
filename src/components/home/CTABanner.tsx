@@ -7,11 +7,6 @@ export function CTABanner() {
     <section className="relative overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0">
-        <ImgPlaceholder
-          label="CTA background: students in study hall, blurred/darkened overlay — wide landscape shot"
-          className="w-full h-full"
-          dark
-        />
         <div className="absolute inset-0 bg-[#0F1F45]/88" />
       </div>
 
@@ -42,7 +37,7 @@ export function CTABanner() {
               Get Free Counselling
             </a>
             <a
-              href="tel:+919876543210"
+              href="tel:+916287247735"
               className="inline-flex items-center gap-2 border-2 border-white/30 hover:border-white/60 text-white font-['Sora'] font-semibold text-[15px] px-8 py-4 rounded-full transition-all duration-200 no-underline"
             >
               <IconPhone /> Call Us Now

@@ -34,7 +34,7 @@ export function Courses() {
         "Weekly assessments",
         "Full syllabus coverage",
       ],
-      featured: true,
+      featured: false,
       color: "from-[#0F1F45] to-[#1D6FDE]",
     },
     {
