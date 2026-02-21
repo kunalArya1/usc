@@ -1,7 +1,7 @@
 import { FadeUp } from "@/utils/hooks";
 import TopperCard, { type TopperData } from "./TopperCard";
 
-const neetToppers: TopperData[] = [
+const neetToppers: any[] = [
   {
     name: "Rahul Kumar",
     score: "680 / 720",
@@ -108,9 +108,9 @@ export default function NEETToppers() {
         </FadeUp>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {neetToppers.map((topper, i) => (
+          {/* {neetToppers.map((topper, i) => (
             <TopperCard key={i} topper={topper} index={i} featured={i === 0} />
-          ))}
+          ))} */}
         </div>
       </div>
     </section>

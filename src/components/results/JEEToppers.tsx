@@ -1,7 +1,7 @@
 import { FadeUp } from "@/utils/hooks";
 import TopperCard, { type TopperData } from "./TopperCard";
 
-const jeeToppers: TopperData[] = [
+const jeeToppers: any[] = [
   {
     name: "Arjun Mishra",
     score: "97.8 Percentile",
@@ -86,9 +86,9 @@ export default function JEEToppers() {
         </FadeUp>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {jeeToppers.map((topper, i) => (
+          {/* {jeeToppers.map((topper, i) => (
             <TopperCard key={i} topper={topper} index={i} featured={i === 2} />
-          ))}
+          ))} */}
         </div>
       </div>
     </section>
