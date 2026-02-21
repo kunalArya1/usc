@@ -13,7 +13,7 @@ function Navbar() {
   const links = [
     { label: "Home", href: "/", active: true },
     { label: "About", href: "/about" },
-    { label: "Courses", href: "/courses" },
+    // { label: "Courses", href: "/courses" },
     { label: "Results", href: "/results" },
     { label: "Contact", href: "/contact" },
   ];

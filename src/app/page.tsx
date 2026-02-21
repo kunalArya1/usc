@@ -11,7 +11,6 @@ import { Testimonials } from "@/components/home/Testimonials";
 import { CTABanner } from "@/components/home/CTABanner";
 import { Contact } from "@/components/home/Contact";
 
-
 export default function HomePage() {
   return (
     <>
@@ -46,7 +45,7 @@ export default function HomePage() {
         <Hero />
         <WhyChoose />
         <About />
-        <Courses />
+        {/* <Courses /> */}
         <Results />
         <Testimonials />
         <CTABanner />

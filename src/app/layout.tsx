@@ -52,11 +52,7 @@ export const metadata: Metadata = {
     creator: "@usclearning",
     images: ["/usclogo.png"],
   },
-  icons: {
-    icon: [{ url: "/usclogo.png", type: "image/png" }],
-    shortcut: "/usclogo.png",
-    apple: "/usclogo.png",
-  },
+  icons: "/favicon.ico",
 };
 
 export default function RootLayout({
@@ -66,11 +62,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" href="/usclogo.png" type="image/png" sizes="any" />
-        <link rel="shortcut icon" href="/usclogo.png" type="image/png" />
-        <link rel="apple-touch-icon" href="/usclogo.png" />
-      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

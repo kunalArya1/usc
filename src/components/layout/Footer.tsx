@@ -2,7 +2,7 @@ function Footer() {
   const links = [
     { label: "Home", href: "/" },
     { label: "About", href: "/about" },
-    { label: "Courses", href: "/courses" },
+    // { label: "Courses", href: "/courses" },
     { label: "Contact", href: "/contact" },
   ];
   const IconLinkedIn = () => (

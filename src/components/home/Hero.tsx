@@ -154,20 +154,21 @@ export function Hero() {
 
           {/* Right: Visual */}
           <div
-            className="relative"
+            className="relative max-w-5xl mx-auto"
             style={{ animation: "fadeInRight 0.8s ease 0.2s both" }}
           >
             {/* Main image */}
-            <div className="rounded-[24px] overflow-hidden shadow-2xl relative aspect-[4/5]">
-              {/* <ImgPlaceholder
-                label="Hero image: Students studying in classroom at Unique Science Classes"
-                className="w-full h-full min-h-[480px]"
-              /> */}
+            <div className="rounded-[24px] overflow-hidden shadow-2xl relative w-full border-4 border-[#FDF200]">
+              <img
+                src="/result.png"
+                alt="Unique Science Classes Results 2024"
+                className="w-full h-auto object-contain block"
+              />
             </div>
 
             {/* Floating card 1 — bottom left */}
             <div
-              className="absolute -bottom-4 -left-8 bg-white rounded-[16px] shadow-xl px-4 py-3 flex items-center gap-3"
+              className="absolute -bottom-4 -left-4 md:-left-8 bg-white rounded-[16px] shadow-xl px-4 py-3 flex items-center gap-3 z-10"
               style={{ animation: "floatUpDown 3s ease-in-out infinite" }}
             >
               <div className="w-10 h-10 bg-green-100 rounded-[10px] flex items-center justify-center">
@@ -186,7 +187,7 @@ export function Hero() {
               </div>
               <div>
                 <div className="font-['Sora'] text-[18px] font-extrabold text-[#0D1836] leading-none">
-                  250+
+                  500+
                 </div>
                 <div className="text-[11px] text-[#8A96AB]">
                   BSEB Selections
@@ -196,42 +197,46 @@ export function Hero() {
 
             {/* Floating card 2 — top right */}
             <div
-              className="absolute -top-4 -right-6 bg-white rounded-[16px] shadow-xl px-4 py-3 flex items-center gap-3"
+              className="absolute -top-4 -right-4 md:-right-6 bg-white rounded-[16px] shadow-xl px-4 py-3 flex items-center gap-3 z-10"
               style={{
                 animation: "floatUpDown 3.5s ease-in-out infinite 0.5s",
               }}
             >
-              <div className="w-10 h-10 bg-blue-100 rounded-[10px] flex items-center justify-center">
+              <div className="w-10 h-10 bg-yellow-100 rounded-[10px] flex items-center justify-center">
                 <svg
                   viewBox="0 0 24 24"
                   fill="none"
-                  stroke="#1d6fde"
+                  stroke="#eab308"
                   strokeWidth="2.5"
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   className="w-5 h-5"
                 >
-                  <path d="M12 20h9" />
-                  <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
+                  <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" />
+                  <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" />
+                  <path d="M4 22h16" />
+                  <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" />
+                  <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" />
+                  <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
                 </svg>
               </div>
               <div>
                 <div className="font-['Sora'] text-[18px] font-extrabold text-[#0D1836] leading-none">
-                  180+
+                  #1
                 </div>
-                <div className="text-[11px] text-[#8A96AB]">JEE Qualifiers</div>
+                <div className="text-[11px] text-[#8A96AB]">in Dhaka</div>
               </div>
             </div>
 
             {/* Badge overlay */}
-            <div className="absolute top-6 left-6 bg-[#E5232E] text-white rounded-[14px] px-4 py-3 shadow-lg shadow-red-200">
+            {/* <div className="absolute top-4 left-4 md:top-6 md:left-6 bg-[#E5232E] text-white rounded-[14px] px-4 py-3 shadow-lg shadow-red-200 z-10">
               <div className="font-['Sora'] text-[28px] font-extrabold leading-none">
                 #1
               </div>
               <div className="text-[11px] opacity-85 mt-0.5">
                 Coaching in Dhaka
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
