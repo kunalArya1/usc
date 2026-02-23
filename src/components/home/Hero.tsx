@@ -31,7 +31,7 @@ export function Hero() {
     };
     const t1 = setTimeout(() => animate(setCount1, 500, 2000), 400);
     const t2 = setTimeout(() => animate(setCount2, 98, 1800), 600);
-    const t3 = setTimeout(() => animate(setCount3, 5, 1200), 800);
+    const t3 = setTimeout(() => animate(setCount3, 8, 1200), 800);
     return () => {
       clearTimeout(t1);
       clearTimeout(t2);
@@ -70,7 +70,7 @@ export function Hero() {
               className="font-['Sora'] text-[44px] md:text-[56px] lg:text-[62px] font-extrabold text-[#0D1836] leading-[1.08] mb-5"
               style={{ animation: "fadeInUp 0.7s ease 0.1s both" }}
             >
-              Excel in CBSE<span className="text-[#E5232E]"> & BSEB</span>
+              Ace in CBSE<span className="text-[#E5232E]"> & BSEB</span>
               <br />
               Board Exams
             </h1>
@@ -79,7 +79,8 @@ export function Hero() {
               className="text-[16px] text-[#4A5568] leading-[1.75] mb-8 max-w-[480px]"
               style={{ animation: "fadeInUp 0.7s ease 0.2s both" }}
             >
-              Unique Science Classes in Dhaka, Bihar delivers result-driven
+              <span>{}</span>
+              UNIQUE SCIENCE CLASSES in Dhaka, Bihar delivers result-driven
               coaching for Class 8-10 (CBSE & BSEB), Class 11–12 Science. Learn
               from expert faculty who've shaped hundreds of toppers.
             </p>
@@ -160,7 +161,7 @@ export function Hero() {
             {/* Main image */}
             <div className="rounded-[24px] overflow-hidden shadow-2xl relative w-full border-4 border-[#FDF200]">
               <img
-                src="/result.png"
+                src="/result2025.jpeg"
                 alt="Unique Science Classes Results 2024"
                 className="w-full h-auto object-contain block"
               />

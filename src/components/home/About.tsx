@@ -17,7 +17,7 @@ export function About() {
     "Dedicated crash course & revision programs",
   ];
   const miniCards = [
-    { icon: <IconGraduate />, val: "5+", label: "Expert Faculties" },
+    { icon: <IconGraduate />, val: "8+", label: "Expert Faculties" },
     { icon: <IconTrophy />, val: "10+", label: "Board Topper" },
     { icon: <IconBookOpen />, val: "5", label: "Courses Offered" },
     { icon: <IconUsers />, val: "100+", label: "Alumni Network" },
