@@ -5,7 +5,7 @@ export default function StatsBand() {
     { value: "500+", label: "Students Enrolled" },
     { value: "98%", label: "Success Rate" },
     { value: "200+", label: "Board Results" },
-    { value: "5+", label: "Expert Faculty" },
+    { value: "8+", label: "Expert Faculty" },
   ];
 
   return (

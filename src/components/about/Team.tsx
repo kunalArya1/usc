@@ -5,21 +5,21 @@ import { IconLinkedIn } from "@/utils/icons";
 export default function Team() {
   const members = [
     {
-      name: "Shahid anwar sir",
+      name: "Shahid anwar sir (Msc)",
       role: "Director",
       bio: "He has personally mentored 300+ NEET selections through his unique mnemonics-based teaching methodology.",
       imgLabel:
-        "Faculty photo: Mr. Rajesh Kumar, Physics teacher, professional portrait",
-      tag: "Math Expert",
+        "Faculty photo: Shahid anwar sir (Msc), Biology teacher, professional portrait",
+      tag: "Biology Expert",
       imagePath: "/sahid.png",
     },
     {
-      name: "Arjun Sir",
+      name: "Er. Arjun Sir",
       role: "Managing Director",
-      bio: "He has successfully guided 200+ students using his innovative teaching methods, with core expertise in Machines, Electrostatics, and Calculus.",
+      bio: "He has successfully guided 200+ students using his innovative teaching methods, with core expertise in Mechanics, Electrostatics, and Calculus.",
       imgLabel:
-        "Faculty photo: Dr. Sunita Devi, Biology teacher, professional portrait",
-      tag: "Biology Expert",
+        "Faculty photo: Er. Arjun Sir,core expertise in Mechanics, Electrostatics, and Calculus.",
+      tag: "Electrostatics Expert",
       imagePath: "./arjun-sir.png",
     },
   ];

@@ -31,7 +31,7 @@ export function Hero() {
     };
     const t1 = setTimeout(() => animate(setCount1, 500, 2000), 400);
     const t2 = setTimeout(() => animate(setCount2, 98, 1800), 600);
-    const t3 = setTimeout(() => animate(setCount3, 8, 1200), 800);
+    const t3 = setTimeout(() => animate(setCount3, 5, 1200), 800);
     return () => {
       clearTimeout(t1);
       clearTimeout(t2);
