@@ -31,9 +31,9 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://usclearning.com",
-    siteName: "USC Learning",
-    title: "USC Learning | NEET, JEE & Board Exam Coaching",
+    url: "https://www.uniquescienceclasses.com/",
+    siteName: "Unique Scinece Classes",
+    title: "Unique Scinece Classes | NEET, JEE & Board Exam Coaching",
     description:
       "Expert coaching for NEET, JEE, CBSE, and BSEB board exams with personalized guidance.",
     images: [
@@ -41,15 +41,15 @@ export const metadata: Metadata = {
         url: "/usclogo.png",
         width: 1200,
         height: 630,
-        alt: "USC Learning",
+        alt: "Unique Scinece Classes ",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "USC Learning | NEET, JEE & Board Exam Coaching",
+    title: "Unique Scinece Classes | NEET, JEE & Board Exam Coaching",
     description: "Expert coaching for NEET, JEE, CBSE, and BSEB board exams.",
-    creator: "@usclearning",
+    creator: "@UniqueScineceClasses",
     images: ["/usclogo.png"],
   },
   icons: "/favicon.ico",
