@@ -71,10 +71,10 @@ function Navbar() {
             </div>
             <div>
               <div className="font-['Sora'] font-extrabold text-[15px] text-[#0D1836] leading-tight">
-                Unique Science Classes
+                UNIQUE SCIENCE CLASSES
               </div>
               <div className="font-['Sora'] text-[10px] text-[#8A96AB] font-medium tracking-widest uppercase">
-                · Dhaka, Bihar
+                Dhaka, Bihar
               </div>
             </div>
           </a>
